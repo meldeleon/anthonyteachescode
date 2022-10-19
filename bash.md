@@ -7,3 +7,4 @@
 - sh means different things in different places, -s (summarize) -h(d)
 - `ls -al` is a shortcut for `ls --all`
 - `man` will pull up help articles for any bash
+- job control -- allows you to background processes, and re-foreground them, or kill them, etc. to background a process type `^z`
