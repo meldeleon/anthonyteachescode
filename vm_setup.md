@@ -9,5 +9,7 @@
     - linux - linus torvalds' love child (he fucked a super computer)
         - many distributions // archlinux (vegans), fedora(), ubuntu (deriv of debian).
         - all distributions share the same linux kernel .
-    - ubuntu names all its releases a adjective and then an animal. ubuntu jammy jellyfish > ubuntu jammy // even numbered versions have long term support. 
+    - ubuntu names all its releases a adjective and then an animal. ubuntu jammy jellyfish > ubuntu jammy // even numbered versions have long term support
+.
+- most linux systems are case sensitive, windows/macOS is case insensitive. 
 

@@ -10,3 +10,7 @@
 - `man` will pull up help articles for any bash
 - job control -- allows you to background processes, and re-foreground them, or kill them, etc. to background a process type `^z`
 - sudo launches commands with super user privileges.
+- syntax for writing aliases: `alias ...='cd ../..'`
+- ``` `` ``` will try and create a subshell command with whatever is contained in it, you can also use `$()`
+- `''` hard quotes are literal quotes, `""` are soft quotes where expansion happens.
+- if you want to nest quotes, just create multiple literal strings of the quotes. 
