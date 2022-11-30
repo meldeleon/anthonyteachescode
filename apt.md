@@ -1,0 +1,13 @@
+# apt
+- apt is the built in package manager for ubuntu/debian derivative.
+- apt is based on dpkg
+- `apt-get` is good for scripts
+- `apt` in terminal, does not have a stable interface, can be changed.
+- `apt update` will update your local packge metadata, but doesn't actually install. It pulls metadata with apt update, the command to install is `apt install`
+- `apt install` will actually update the packages.
+- `apt purge` different from apt uninstall, removes the package and any config files associated with the package.
+- `apt uninstall` will remove the package but not any config files.
+- `dpkg -l` will list all the packages installed.
+- `dpkg -L` will list all the files in packge. 
+- `apt-cache search ...` allows you to search package name.
+- `add-apt-repository` allows you to access other packages from other repos.

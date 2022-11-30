@@ -13,4 +13,5 @@
 - syntax for writing aliases: `alias ...='cd ../..'`
 - ``` `` ``` will try and create a subshell command with whatever is contained in it, you can also use `$()`
 - `''` hard quotes are literal quotes, `""` are soft quotes where expansion happens.
-- if you want to nest quotes, just create multiple literal strings of the quotes. 
+- if you want to nest quotes, just create multiple literal strings of the quotes
+- to print exit codes in bash type `$?` 
