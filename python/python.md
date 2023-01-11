@@ -1,0 +1,15 @@
+## Python background
+- old language, python1 came out in 90s, python 2 is most popular version.
+- python3 came out in 2008, was not widely adopted. drastically reworked the language, so backwards compatibility was difficult.- python2 end of lifed in 2020.
+- designed the executable names to coexist at the same time, python was usually python2, while python3 was the executable for python3.
+- PEP(python enhancement proposals) - process for proposing ideas in python.
+- python3 is usually the default executable for python.
+- REPL - read evalute print loop. the try shit terminal box.
+- to run type `python file.py` or run a module `python -m file`
+- -i will launch the REPL after running a file for interactive mode. 
+- everything in python is an object, everything has a type, even the types have a type. in python3 types are classes.
+- python has classical inheritance. has a lookup table of functions for each type in the inheritance hierarchy. 
+- anthbonk strongly suggests against using inheritance.
+- python is generally defined as a multi-paradigm language, you can write oo python or function python, anthbonk does procedural python with functional stuff.
+- functional programming - no iteration, everything is basic input/output of function, map/filter/reduce all the things.
+- `python -m pydocs searchterm` to look up python types/methods etc. 
