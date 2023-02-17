@@ -1,0 +1,21 @@
+## Tuples ##
+- data type, container sequence of other things.
+- syntax for empty tuple `()`, syntax for tuples otherwise is just a comma seperated list, the `(1,2)` do nothing, but are included conventionally.
+- tuples are immutable, cannot be modified, but can be reassigned.
+- one element tuple `(1,)` 
+- tuples are iterable
+- can construct a tuple from any other iterable using `tuple()` function
+### methods ###
+- adding tuples concatenates them
+- contain returns boolean if an element is contained
+- you can compare the values of two tuples with `==`
+- greater than or lesser than does an element wise comparison until one runs out
+  - this is compared similarly to how one organizes a dictionary.
+  - you cannot compare types
+- `len()` returns length of tuple
+- `*` multiples the tuple by concating multiple copies of itself
+- rmul vs mul -- right handedness vs left handedness `2 * tuple`
+- `tuple.count()` counts the instance of a value in a tuple.
+- `tuple.index()` returns the index of a value in a tuple. returns error if not in tuple.
+- you can spread/splat tuples with `newple = (*tuple,)`. 
+- unpacking/destructuring tuples, it is generally the opposite of spread/splat; takes the values of a tuple and assigns it to variables.

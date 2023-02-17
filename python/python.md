@@ -12,4 +12,8 @@
 - anthbonk strongly suggests against using inheritance.
 - python is generally defined as a multi-paradigm language, you can write oo python or function python, anthbonk does procedural python with functional stuff.
 - functional programming - no iteration, everything is basic input/output of function, map/filter/reduce all the things.
-- `python -m pydocs searchterm` to look up python types/methods etc. 
+- `python -m pydoc searchterm` to look up python types/methods etc. In REPL `help(searchterm)`
+- operators, there are unary (takes one arg) or binary
+- unary operators: `+` `-` `not` `~`(bitwise not)
+- binary operators, is everything else, `==` `!=` `+` `-` `>` `>=` `<` `<=` `%` `/` `*` `//`(floor division) `@` (matrix multiplier) `^`(bitwise XOR) `**` `|` `&` `<<` `>>` `and` `not` `or` `in` `is` `is not` `not in`
+- in pydocs if there is a method with a list of arguments, followed by a `/` all the arguments to the left of it are positional only and cannot be called by keyword.
