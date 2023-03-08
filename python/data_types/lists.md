@@ -20,7 +20,7 @@ print(list_1)
 - `imul` - stands for in-place multiply, will multiply the list and reassign it to variable (becuase it is mutable, unlike tuples)
 - `reversed` allows you to iterate over an iterable backwards
 ```python
-for i in list_1:
+for i in reversed(list_1):
   print(i)
 >>> 3
 2
